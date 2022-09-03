@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+main,
+footer {
+    margin: 2rem 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    margin: 1rem auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.2rem 1.2rem 0 1.2rem;
+    border-radius: 1rem;
+    height: 36rem;
+}
+
+.card-image,
+.card-image>img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 18rem;
+}
+
+/* .card-image>img:hover {
+    visibility: hidden;
+} */
+
+/* .card-image:hover {
+    background-color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    background-image: url("./images/image-equilibrium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+} */
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.card-heading {
+    font-weight: 600;
+    font-size: 1.4rem;
+    transition: color 0.3s;
+}
+
+.card-heading:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.nft-detail {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.125rem;
+}
+
+.balance-and-time-container {
+    display: flex;
+    font-size: 1.125rem;
+    color: hsl(215, 51%, 70%);
+    justify-content: space-between;
+}
+
+.balance-container,
+.time-container {
+    display: flex;
+}
+
+.balance,
+.time {
+    margin: 0 0.5rem;
+}
+
+.balance-image>img {
+    height: 1.2rem;
+}
+
+.balance {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.time-image>img {
+    height: 0.9rem;
+}
+
+.avatar-container {
+    border-top: 1.2px solid hsl(215, 32%, 27%);
+    display: flex;
+    font-size: 1rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar>img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: 1rem 0 0 0;
+}
+
+.avatar-detail {
+    margin: 1.2rem 0 0 1.2rem;
+    font-size: 1.125rem;
+}
+
+.creator-name {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.creator-name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
