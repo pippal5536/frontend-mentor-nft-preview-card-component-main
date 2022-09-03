@@ -43,6 +43,10 @@ footer {
     height: 18rem;
 }
 
+.card-image {
+    position: relative;
+}
+
 /* .card-image>img:hover {
     visibility: hidden;
 } */
@@ -55,6 +59,33 @@ footer {
     background-size: cover;
     opacity: 0.5;
 } */
+/* At first I thought image hover would be done by using visibiliy: hidden. But it can actually done by opacity*/
+.hover-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 1rem;
+    /* placing the eye icon in center in with the most easiest way */
+    display: grid;
+    place-items: center;
+    opacity: 0;
+}
+
+/* classic way to center the eye icon */
+/* .hover-image>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.hover-image:hover {
+    /* The tricky part of the hover image was to use hsla */
+    background-color: hsla(178, 100%, 50%, 60%);
+    cursor: pointer;
+    opacity: 1;
+}
 
 .card-details {
     display: flex;
@@ -66,7 +97,6 @@ footer {
 .card-heading {
     font-weight: 600;
     font-size: 1.4rem;
-    transition: color 0.3s;
 }
 
 .card-heading:hover {
@@ -132,7 +162,6 @@ footer {
 .creator-name {
     color: hsl(0, 0%, 100%);
     font-weight: 400;
-    transition: color 0.3s;
 }
 
 .creator-name:hover {
