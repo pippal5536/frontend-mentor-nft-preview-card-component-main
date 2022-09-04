@@ -50,7 +50,8 @@ Users should be able to:
 
 ### What I learned
 
-```I learnt how to center an element.Thanks to Fireship.[FireShip](https://www.youtube.com/shorts/njdJeu95p6s)
+```
+/*I learnt how to center an element.Thanks to Fireship.[FireShip](https://www.youtube.com/shorts/njdJeu95p6s)*/
 /*Classic Approach:*/
 .parent{
   position: relative;
@@ -66,6 +67,7 @@ Users should be able to:
   display: grid;
   place-items: center;
 }
+/* I knew hsl. But I learnt about hsla by doing is project. */
 ```
 
 ### Continued development
@@ -80,9 +82,7 @@ I need to practice height and width
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/pippal5536)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [pippal5536](https://www.frontendmentor.io/profile/pippal5536)
 
 ## Acknowledgments
 
